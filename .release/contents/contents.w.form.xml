@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<div xmlns="http://www.w3.org/1999/xhtml" component="$model/UI2/system/components/justep/window/window" design="device:m;" xid="window" class="window ciaYNfe" data-bind="component:{name:'$model/UI2/system/components/justep/window/window'}" __cid="ciaYNfe" components="$model/UI2/system/components/justep/model/model,$model/UI2/system/components/justep/contents/content,$model/UI2/system/components/justep/loadingBar/loadingBar,$model/UI2/system/components/justep/button/button,$model/UI2/system/components/justep/scrollView/scrollView,$model/UI2/system/components/justep/list/list,$model/UI2/system/components/justep/panel/child,$model/UI2/system/components/justep/contents/contents,$model/UI2/system/components/justep/window/window,$model/UI2/system/components/justep/button/buttonGroup,$model/UI2/system/components/justep/panel/panel,">
+  <xhtml:style xmlns:xhtml="http://www.w3.org/1999/xhtml">null</xhtml:style>  
+  <div component="$model/UI2/system/components/justep/model/model" xid="model" style="display:none" data-bind="component:{name:'$model/UI2/system/components/justep/model/model'}" __cid="ciaYNfe" class="ciaYNfe"></div>  
+  <div component="$model/UI2/system/components/justep/panel/panel" class="x-panel x-full pczUJnEj-iosstatusbar ciaYNfe" xid="panel1" data-bind="component:{name:'$model/UI2/system/components/justep/panel/panel'}" __cid="ciaYNfe"> 
+    <div class="x-panel-content ciaYNfe" xid="content1" component="$model/UI2/system/components/justep/panel/child" data-bind="component:{name:'$model/UI2/system/components/justep/panel/child'}" __cid="ciaYNfe">
+      <div component="$model/UI2/system/components/justep/contents/contents" class="x-contents x-full ciaYNfe" xid="contents1" data-bind="component:{name:'$model/UI2/system/components/justep/contents/contents'}" data-config="{&quot;active&quot;:0}" __cid="ciaYNfe"> 
+        <div class="x-contents-content  x-scroll-view active ciaYNfe" xid="content2" component="$model/UI2/system/components/justep/contents/content" data-bind="component:{name:'$model/UI2/system/components/justep/contents/content'}" __cid="ciaYNfe">
+          <div class="x-scroll ciaYNfe" component="$model/UI2/system/components/justep/scrollView/scrollView" xid="scrollView1" data-bind="component:{name:'$model/UI2/system/components/justep/scrollView/scrollView'}" __cid="ciaYNfe"> 
+            <div class="x-content-center x-pull-down container ciaYNfe" xid="div1" __cid="ciaYNfe"> 
+              <i class="x-pull-down-img glyphicon x-icon-pull-down ciaYNfe" xid="i3" __cid="ciaYNfe"/>  
+              <span class="x-pull-down-label ciaYNfe" xid="span3" __cid="ciaYNfe">下拉刷新...</span>
+            </div>  
+            <div class="x-scroll-content ciaYNfe" xid="div2" __cid="ciaYNfe">
+              <div component="$model/UI2/system/components/justep/list/list" class="x-list ciaYNfe" xid="list1" data-bind="component:{name:'$model/UI2/system/components/justep/list/list'}" __cid="ciaYNfe"> 
+                <ul class="x-list-template hide ciaYNfe" xid="listTemplateUl1" __cid="ciaYNfe"> 
+                  <li xid="li1" __cid="ciaYNfe" class="ciaYNfe">
+                    <div component="$model/UI2/system/components/justep/panel/panel" class="x-panel x-card pcMnaU3i-iosstatusbar ciaYNfe" xid="panel2" data-bind="component:{name:'$model/UI2/system/components/justep/panel/panel'}" __cid="ciaYNfe"> 
+                      <div class="x-panel-top ciaYNfe" xid="top2" component="$model/UI2/system/components/justep/panel/child" data-bind="component:{name:'$model/UI2/system/components/justep/panel/child'}" __cid="ciaYNfe">
+                        <span xid="span6" __cid="ciaYNfe" class="ciaYNfe">第1题</span>
+                      </div>  
+                      <div class="x-panel-content ciaYNfe" xid="content3" component="$model/UI2/system/components/justep/panel/child" data-bind="component:{name:'$model/UI2/system/components/justep/panel/child'}" __cid="ciaYNfe">
+                        <span xid="span5" __cid="ciaYNfe" class="ciaYNfe">这是里是题面</span>
+                      </div>  
+                      <div class="x-panel-bottom ciaYNfe" xid="bottom2" component="$model/UI2/system/components/justep/panel/child" data-bind="component:{name:'$model/UI2/system/components/justep/panel/child'}" __cid="ciaYNfe"/>
+                      <style __cid="ciaYNfe" class="ciaYNfe">.x-panel.pcMnaU3i-iosstatusbar &gt;.x-panel-top {height: 48px;}.x-panel.pcMnaU3i-iosstatusbar &gt;.x-panel-content { top: 48px;bottom: nullpx;}.x-panel.pcMnaU3i-iosstatusbar &gt;.x-panel-bottom {height: nullpx;}.iosstatusbar .x-panel.pcMnaU3i-iosstatusbar &gt;.x-panel-top,.iosstatusbar .x-panel .x-panel-content .x-has-iosstatusbar.x-panel.pcMnaU3i-iosstatusbar &gt;.x-panel-top {height: 68px;}.iosstatusbar .x-panel.pcMnaU3i-iosstatusbar &gt;.x-panel-content,.iosstatusbar .x-panel .x-panel-content .x-has-iosstatusbar.x-panel.pcMnaU3i-iosstatusbar &gt;.x-panel-content { top: 68px;}.iosstatusbar .x-panel .x-panel-content .x-panel.pcMnaU3i-iosstatusbar &gt;.x-panel-top {height: 48px;}.iosstatusbar .x-panel .x-panel-content .x-panel.pcMnaU3i-iosstatusbar &gt;.x-panel-content {top: 48px;}</style>
+                    </div>
+                  </li>
+                </ul> 
+              </div>
+            </div>  
+            <div class="x-content-center x-pull-up ciaYNfe" xid="div3" __cid="ciaYNfe"> 
+              <span class="x-pull-up-label ciaYNfe" xid="span4" __cid="ciaYNfe">加载更多...</span>
+            </div> 
+          </div>
+        </div>
+      </div>
+    </div>  
+    <div class="x-panel-bottom ciaYNfe" xid="bottom1" component="$model/UI2/system/components/justep/panel/child" data-bind="component:{name:'$model/UI2/system/components/justep/panel/child'}" __cid="ciaYNfe">
+      <div component="$model/UI2/system/components/justep/button/buttonGroup" class="btn-group btn-group-justified ciaYNfe" xid="buttonGroup1" data-bind="component:{name:'$model/UI2/system/components/justep/button/buttonGroup'}" data-config="{&quot;tabbed&quot;:true}" __cid="ciaYNfe">
+        <a component="$model/UI2/system/components/justep/button/button" class="btn btn-danger ciaYNfe" xid="button1" data-bind="component:{name:'$model/UI2/system/components/justep/button/button'}" data-config="{&quot;label&quot;:&quot;退出&quot;}" __cid="ciaYNfe"> 
+          <i xid="i1" __cid="ciaYNfe" class="ciaYNfe"/>  
+          <span xid="span1" __cid="ciaYNfe" class="ciaYNfe">退出</span>
+        </a>  
+        <a component="$model/UI2/system/components/justep/button/button" class="btn btn-success ciaYNfe" xid="button2" data-bind="component:{name:'$model/UI2/system/components/justep/button/button'}" data-config="{&quot;label&quot;:&quot;交卷&quot;}" __cid="ciaYNfe"> 
+          <i xid="i2" __cid="ciaYNfe" class="ciaYNfe"/>  
+          <span xid="span2" __cid="ciaYNfe" class="ciaYNfe">交卷</span>
+        </a>
+      </div>
+    </div>
+    <style __cid="ciaYNfe" class="ciaYNfe">.x-panel.pczUJnEj-iosstatusbar &gt;.x-panel-top {height: 0px;}.x-panel.pczUJnEj-iosstatusbar &gt;.x-panel-content { top: 0px;bottom: nullpx;}.x-panel.pczUJnEj-iosstatusbar &gt;.x-panel-bottom {height: nullpx;}.iosstatusbar .x-panel.pczUJnEj-iosstatusbar &gt;.x-panel-top,.iosstatusbar .x-panel .x-panel-content .x-has-iosstatusbar.x-panel.pczUJnEj-iosstatusbar &gt;.x-panel-top {height: 0px;}.iosstatusbar .x-panel.pczUJnEj-iosstatusbar &gt;.x-panel-content,.iosstatusbar .x-panel .x-panel-content .x-has-iosstatusbar.x-panel.pczUJnEj-iosstatusbar &gt;.x-panel-content { top: 0px;}.iosstatusbar .x-panel .x-panel-content .x-panel.pczUJnEj-iosstatusbar &gt;.x-panel-top {height: 0px;}.iosstatusbar .x-panel .x-panel-content .x-panel.pczUJnEj-iosstatusbar &gt;.x-panel-content {top: 0px;}</style>
+  </div>
+</div>

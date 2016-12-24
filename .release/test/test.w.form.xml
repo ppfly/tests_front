@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<div xmlns="http://www.w3.org/1999/xhtml" component="$model/UI2/system/components/justep/window/window" design="device:m;" xid="window" class="window cJjqy6f" data-bind="component:{name:'$model/UI2/system/components/justep/window/window'}" __cid="cJjqy6f" components="$model/UI2/system/components/justep/model/model,$model/UI2/system/components/justep/loadingBar/loadingBar,$model/UI2/system/components/justep/timer/timer,$model/UI2/system/components/justep/button/button,$model/UI2/system/components/justep/list/list,$model/UI2/system/components/justep/select/radioGroup,$model/UI2/system/components/justep/panel/child,$model/UI2/system/components/justep/panel/panel,$model/UI2/system/components/justep/button/checkbox,$model/UI2/system/components/justep/row/row,$model/UI2/system/components/justep/output/output,$model/UI2/system/components/justep/titleBar/titleBar,$model/UI2/system/components/justep/button/radio,$model/UI2/system/components/justep/data/data,$model/UI2/system/components/justep/window/window,">
+  <xhtml:style xmlns:xhtml="http://www.w3.org/1999/xhtml">null</xhtml:style>  
+  <div component="$model/UI2/system/components/justep/model/model" xid="model" style="display:none" data-bind="component:{name:'$model/UI2/system/components/justep/model/model'}" data-events="onLoad:modelLoad" __cid="cJjqy6f" class="cJjqy6f"></div>  
+  <span component="$model/UI2/system/components/justep/timer/timer" xid="timer1" data-bind="component:{name:'$model/UI2/system/components/justep/timer/timer'}" data-events="onTimer:timer1Timer" __cid="cJjqy6f" class="cJjqy6f"/>
+  <div component="$model/UI2/system/components/justep/panel/panel" class="x-panel x-full pcQfyyEv-iosstatusbar cJjqy6f" xid="panel1" data-bind="component:{name:'$model/UI2/system/components/justep/panel/panel'}" __cid="cJjqy6f"> 
+    <div class="x-panel-top cJjqy6f" xid="top1" component="$model/UI2/system/components/justep/panel/child" data-bind="component:{name:'$model/UI2/system/components/justep/panel/child'}" __cid="cJjqy6f"> 
+      <div component="$model/UI2/system/components/justep/titleBar/titleBar" class="x-titlebar cJjqy6f" data-bind="component:{name:'$model/UI2/system/components/justep/titleBar/titleBar'}" data-config="{&quot;title&quot;:&quot;标题&quot;}" __cid="cJjqy6f"> 
+        <div class="x-titlebar-left cJjqy6f" __cid="cJjqy6f"> 
+          <a component="$model/UI2/system/components/justep/button/button" class="btn btn-link btn-only-icon cJjqy6f" xid="backBtn" data-bind="component:{name:'$model/UI2/system/components/justep/button/button'}" data-events="onClick:{operation:'window.close'}" data-config="{&quot;icon&quot;:&quot;icon-chevron-left&quot;,&quot;label&quot;:&quot;&quot;}" __cid="cJjqy6f"> 
+            <i class="icon-chevron-left cJjqy6f" __cid="cJjqy6f"/>  
+            <span __cid="cJjqy6f" class="cJjqy6f"/> 
+          </a> 
+        </div>  
+        <div class="x-titlebar-title cJjqy6f" __cid="cJjqy6f">标题</div>  
+        <div class="x-titlebar-right  cJjqy6f" __cid="cJjqy6f">
+          <div class="empty cJjqy6f" __cid="cJjqy6f"/>
+          <div component="$model/UI2/system/components/justep/output/output" class="x-output cJjqy6f" xid="output1" style="color:#FFFFFF;" data-bind="component:{name:'$model/UI2/system/components/justep/output/output'}" __cid="cJjqy6f"/>
+        </div> 
+      </div> 
+    </div>  
+    <div class="x-panel-content cJjqy6f" xid="content1" style="padding-left:10px;padding-right:10px;" component="$model/UI2/system/components/justep/panel/child" data-bind="component:{name:'$model/UI2/system/components/justep/panel/child'}" __cid="cJjqy6f"> 
+      <div component="$model/UI2/system/components/justep/row/row" class="x-row cJjqy6f" xid="row7" data-bind="component:{name:'$model/UI2/system/components/justep/row/row'}" __cid="cJjqy6f"> 
+        <div class="x-col cJjqy6f" xid="col11" __cid="cJjqy6f"/>  
+        <div class="x-col cJjqy6f" xid="col12" __cid="cJjqy6f">
+          <h3 xid="h3" __cid="cJjqy6f" class="cJjqy6f">判断题</h3>
+        </div>  
+        <div class="x-col cJjqy6f" xid="col13" __cid="cJjqy6f"/>
+      </div>
+      <div component="$model/UI2/system/components/justep/row/row" class="x-row cJjqy6f" xid="row2" data-bind="component:{name:'$model/UI2/system/components/justep/row/row'}" __cid="cJjqy6f"> 
+        <div class="x-col cJjqy6f" xid="col5" __cid="cJjqy6f">
+          <div component="$model/UI2/system/components/justep/list/list" class="x-list cJjqy6f" xid="list1" data-bind="component:{name:'$model/UI2/system/components/justep/list/list'}" data-config="{&quot;data&quot;:&quot;AllTest1&quot;}" __cid="cJjqy6f"> 
+            <ul class="x-list-template hide cJjqy6f" xid="listTemplateUl1" bind-foreach="{data:$model.foreach_list1($element),afterRender:$model.foreach_afterRender_list1.bind($model,$element)}" __cid="cJjqy6f"> 
+              <li xid="li1" __cid="cJjqy6f" class="cJjqy6f"> 
+                <div component="$model/UI2/system/components/justep/row/row" class="x-row cJjqy6f" xid="row1" data-bind="component:{name:'$model/UI2/system/components/justep/row/row'}" __cid="cJjqy6f"> 
+                  <div class="x-col bg-info cJjqy6f" xid="col3" __cid="cJjqy6f"> 
+                    <span xid="span7" bind-text="val(&quot;title&quot;)" style="font-size:x-large;" __cid="cJjqy6f" class="cJjqy6f"/> 
+                  </div> 
+                </div>  
+                <div component="$model/UI2/system/components/justep/row/row" class="x-row cJjqy6f" xid="row3" data-bind="component:{name:'$model/UI2/system/components/justep/row/row'}" __cid="cJjqy6f"> 
+                  <div class="x-col x-col-fixed cJjqy6f" xid="col1" style="width:auto;" __cid="cJjqy6f"> 
+                    <label xid="label1" __cid="cJjqy6f" class="cJjqy6f">选择答案：</label>  
+                    <span component="$model/UI2/system/components/justep/select/radioGroup" class="x-radio-group cJjqy6f" xid="radioGroup1" bind-foreach="{data:$model.radioSet1.datas,afterRender:$model.comp($element)['_doUpdate'].bind($model.comp($element))}" data-bind="component:{ref:ref(&quot;checked&quot;),name:'$model/UI2/system/components/justep/select/radioGroup'}" data-events="onChange:radioGroup1Change" __cid="cJjqy6f">
+                      <xhtml:span xmlns:xhtml="http://www.w3.org/1999/xhtml" component="$model/UI2/system/components/justep/button/radio" class="x-radio cJjqy6f" data-config="{&quot;checked&quot;:false,&quot;disabled&quot;:false}" data-bind="component:{name:'$model/UI2/system/components/justep/button/radio',label:ref(&quot;item&quot;),value:ref(&quot;value&quot;)}" __cid="cJjqy6f">
+                        <xhtml:input type="radio" __cid="cJjqy6f" class="cJjqy6f"/>
+                        <xhtml:label __cid="cJjqy6f" class="cJjqy6f"/>
+                      </xhtml:span>
+                    </span> 
+                  </div> 
+                </div> 
+              </li> 
+            </ul> 
+          </div>
+        </div>
+      </div>  
+      <div component="$model/UI2/system/components/justep/row/row" class="x-row cJjqy6f" xid="row8" data-bind="component:{name:'$model/UI2/system/components/justep/row/row'}" __cid="cJjqy6f"> 
+        <div class="x-col cJjqy6f" xid="col14" __cid="cJjqy6f"/>  
+        <div class="x-col cJjqy6f" xid="col15" __cid="cJjqy6f">
+          <h3 xid="h34" __cid="cJjqy6f" class="cJjqy6f">单选题</h3>
+        </div>  
+        <div class="x-col cJjqy6f" xid="col16" __cid="cJjqy6f"/>
+      </div>  
+      <div component="$model/UI2/system/components/justep/row/row" class="x-row cJjqy6f" xid="row9" data-bind="component:{name:'$model/UI2/system/components/justep/row/row'}" __cid="cJjqy6f"> 
+        <div class="x-col cJjqy6f" xid="col18" __cid="cJjqy6f">
+          <div component="$model/UI2/system/components/justep/list/list" class="x-list cJjqy6f" xid="list3" data-bind="component:{name:'$model/UI2/system/components/justep/list/list'}" data-config="{&quot;autoLoad&quot;:true,&quot;data&quot;:&quot;AllTest2&quot;}" __cid="cJjqy6f"> 
+            <ul class="x-list-template hide cJjqy6f" xid="listTemplateUl3" bind-foreach="{data:$model.foreach_list3($element),afterRender:$model.foreach_afterRender_list3.bind($model,$element)}" __cid="cJjqy6f"> 
+              <li xid="li3" __cid="cJjqy6f" class="cJjqy6f"> 
+                <div component="$model/UI2/system/components/justep/row/row" class="x-row cJjqy6f" xid="row10" data-bind="component:{name:'$model/UI2/system/components/justep/row/row'}" __cid="cJjqy6f"> 
+                  <div class="x-col bg-info cJjqy6f" xid="col20" __cid="cJjqy6f"> 
+                    <span xid="span5" bind-text="val(&quot;title&quot;)" style="font-size:x-large;" __cid="cJjqy6f" class="cJjqy6f"/>
+                  </div> 
+                </div>  
+                <div component="$model/UI2/system/components/justep/row/row" class="x-row cJjqy6f" xid="row11" data-bind="component:{name:'$model/UI2/system/components/justep/row/row'}" __cid="cJjqy6f"> 
+                  <div class="x-col x-col-fixed cJjqy6f" xid="col21" style="width:auto;" __cid="cJjqy6f"> 
+                    <label xid="label3" __cid="cJjqy6f" class="cJjqy6f">选择答案：</label> 
+                  </div>  
+                  <div class="x-col cJjqy6f" xid="col2" __cid="cJjqy6f">
+                    <div component="$model/UI2/system/components/justep/list/list" class="x-list cJjqy6f" xid="list2" data-bind="component:{name:'$model/UI2/system/components/justep/list/list'}" data-config="{&quot;data&quot;:&quot;$model.AllTest2_option&quot;,&quot;filter&quot;:&quot;$row.val('id')==val('id')&quot;}" __cid="cJjqy6f"> 
+                      <ul class="x-list-template hide cJjqy6f" xid="listTemplateUl2" bind-foreach="{data:$model.foreach_list2($element),afterRender:$model.foreach_afterRender_list2.bind($model,$element)}" __cid="cJjqy6f"> 
+                        <li xid="li2" __cid="cJjqy6f" class="cJjqy6f">
+                          <span component="$model/UI2/system/components/justep/button/radio" class="x-radio cJjqy6f" xid="radio1" checkedValue="1" uncheckedValue="0" data-config="{&quot;checked&quot;:false,&quot;checkedValue&quot;:&quot;1&quot;,&quot;disabled&quot;:false,&quot;uncheckedValue&quot;:&quot;0&quot;}" data-bind="component:{ref:ref(&quot;checked&quot;),name:'$model/UI2/system/components/justep/button/radio',label:val('option_element'),value:val('option_key')}" data-events="onChange:radio1Change" __cid="cJjqy6f">
+                            <xhtml:input xmlns:xhtml="http://www.w3.org/1999/xhtml" type="radio" __cid="cJjqy6f" class="cJjqy6f"/>
+                            <xhtml:label xmlns:xhtml="http://www.w3.org/1999/xhtml" __cid="cJjqy6f" class="cJjqy6f"/>
+                          </span>  
+                          <span xid="span3" bind-text="val('option_element')" __cid="cJjqy6f" class="cJjqy6f"/>
+                        </li>
+                      </ul> 
+                    </div>
+                  </div>
+                </div> 
+              </li> 
+            </ul> 
+          </div>
+        </div> 
+      </div>  
+      <div component="$model/UI2/system/components/justep/row/row" class="x-row cJjqy6f" xid="row13" data-bind="component:{name:'$model/UI2/system/components/justep/row/row'}" __cid="cJjqy6f"> 
+        <div class="x-col cJjqy6f" xid="col8" __cid="cJjqy6f"/>  
+        <div class="x-col cJjqy6f" xid="col7" __cid="cJjqy6f"> 
+          <h3 xid="h31" __cid="cJjqy6f" class="cJjqy6f">多选题</h3>
+        </div>  
+        <div class="x-col cJjqy6f" xid="col6" __cid="cJjqy6f"/>
+      </div>  
+      <div component="$model/UI2/system/components/justep/row/row" class="x-row cJjqy6f" xid="row6" data-bind="component:{name:'$model/UI2/system/components/justep/row/row'}" __cid="cJjqy6f"> 
+        <div class="x-col cJjqy6f" xid="col4" __cid="cJjqy6f"> 
+          <div component="$model/UI2/system/components/justep/list/list" class="x-list cJjqy6f" xid="list4" data-bind="component:{name:'$model/UI2/system/components/justep/list/list'}" data-config="{&quot;autoLoad&quot;:true,&quot;data&quot;:&quot;AllTest3&quot;}" __cid="cJjqy6f"> 
+            <ul class="x-list-template hide cJjqy6f" xid="listTemplateUl4" bind-foreach="{data:$model.foreach_list4($element),afterRender:$model.foreach_afterRender_list4.bind($model,$element)}" __cid="cJjqy6f"> 
+              <li xid="li5" __cid="cJjqy6f" class="cJjqy6f"> 
+                <div component="$model/UI2/system/components/justep/row/row" class="x-row cJjqy6f" xid="row5" data-bind="component:{name:'$model/UI2/system/components/justep/row/row'}" __cid="cJjqy6f"> 
+                  <div class="x-col bg-info cJjqy6f" xid="col10" __cid="cJjqy6f"> 
+                    <span xid="span9" bind-text="val(&quot;title&quot;)" style="font-size:x-large;" __cid="cJjqy6f" class="cJjqy6f"/>
+                  </div> 
+                </div>  
+                <div component="$model/UI2/system/components/justep/row/row" class="x-row cJjqy6f" xid="row4" data-bind="component:{name:'$model/UI2/system/components/justep/row/row'}" __cid="cJjqy6f"> 
+                  <div class="x-col x-col-fixed cJjqy6f" xid="col9" style="width:auto;" __cid="cJjqy6f"> 
+                    <label xid="label2" __cid="cJjqy6f" class="cJjqy6f">选择答案：</label>
+                  </div>  
+                  <div class="x-col cJjqy6f" xid="col17" __cid="cJjqy6f"> 
+                    <div component="$model/UI2/system/components/justep/list/list" class="x-list cJjqy6f" xid="list5" data-bind="component:{name:'$model/UI2/system/components/justep/list/list'}" data-config="{&quot;data&quot;:&quot;$model.AllTest3_option&quot;,&quot;filter&quot;:&quot;$row.val('id')==val('id')&quot;}" __cid="cJjqy6f"> 
+                      <ul class="x-list-template hide cJjqy6f" xid="listTemplateUl5" bind-foreach="{data:$model.foreach_list5($element),afterRender:$model.foreach_afterRender_list5.bind($model,$element)}" __cid="cJjqy6f"> 
+                        <li xid="li4" __cid="cJjqy6f" class="cJjqy6f"> 
+                          <span component="$model/UI2/system/components/justep/button/checkbox" class="x-checkbox cJjqy6f" xid="checkbox1" checkedValue="1" uncheckedValue="0" data-config="{&quot;checked&quot;:false,&quot;checkedValue&quot;:&quot;1&quot;,&quot;disabled&quot;:false,&quot;uncheckedValue&quot;:&quot;0&quot;}" data-bind="component:{ref:ref('checked'),name:'$model/UI2/system/components/justep/button/checkbox',label:val('option_element'),value:val('option_key')}" data-events="onChange:checkbox1Change" __cid="cJjqy6f">
+                            <xhtml:input xmlns:xhtml="http://www.w3.org/1999/xhtml" type="checkbox" __cid="cJjqy6f" class="cJjqy6f"/>
+                            <xhtml:label xmlns:xhtml="http://www.w3.org/1999/xhtml" __cid="cJjqy6f" class="cJjqy6f"/>
+                          </span>
+                          <span xid="span6" bind-text="val('option_element')" __cid="cJjqy6f" class="cJjqy6f"/> 
+                        </li> 
+                      </ul> 
+                    </div> 
+                  </div> 
+                </div> 
+              </li> 
+            </ul> 
+          </div> 
+        </div> 
+      </div>
+      <div component="$model/UI2/system/components/justep/row/row" class="x-row cJjqy6f" xid="row12" data-bind="component:{name:'$model/UI2/system/components/justep/row/row'}" __cid="cJjqy6f"> 
+        <div class="x-col cJjqy6f" xid="col22" __cid="cJjqy6f">
+          <a component="$model/UI2/system/components/justep/button/button" class="btn btn-success btn-block cJjqy6f" xid="completedButton" data-bind="component:{name:'$model/UI2/system/components/justep/button/button'}" data-events="onClick:completedButton" data-config="{&quot;label&quot;:&quot;交  卷&quot;}" __cid="cJjqy6f"> 
+            <i xid="i5" __cid="cJjqy6f" class="cJjqy6f"/>  
+            <span xid="span8" __cid="cJjqy6f" class="cJjqy6f">交 卷</span>
+          </a>
+        </div> 
+      </div>
+    </div>  
+    <style __cid="cJjqy6f" class="cJjqy6f">.x-panel.pcQfyyEv-iosstatusbar &gt;.x-panel-top {height: 48px;}.x-panel.pcQfyyEv-iosstatusbar &gt;.x-panel-content { top: 48px;bottom: nullpx;}.x-panel.pcQfyyEv-iosstatusbar &gt;.x-panel-bottom {height: nullpx;}.iosstatusbar .x-panel.pcQfyyEv-iosstatusbar &gt;.x-panel-top,.iosstatusbar .x-panel .x-panel-content .x-has-iosstatusbar.x-panel.pcQfyyEv-iosstatusbar &gt;.x-panel-top {height: 68px;}.iosstatusbar .x-panel.pcQfyyEv-iosstatusbar &gt;.x-panel-content,.iosstatusbar .x-panel .x-panel-content .x-has-iosstatusbar.x-panel.pcQfyyEv-iosstatusbar &gt;.x-panel-content { top: 68px;}.iosstatusbar .x-panel .x-panel-content .x-panel.pcQfyyEv-iosstatusbar &gt;.x-panel-top {height: 48px;}.iosstatusbar .x-panel .x-panel-content .x-panel.pcQfyyEv-iosstatusbar &gt;.x-panel-content {top: 48px;}</style>
+  </div> 
+</div>

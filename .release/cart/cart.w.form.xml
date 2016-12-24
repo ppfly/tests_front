@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<div xmlns="http://www.w3.org/1999/xhtml" component="$model/UI2/system/components/justep/window/window" design="device:m;" xid="window" class="window cyaauQf" data-bind="component:{name:'$model/UI2/system/components/justep/window/window'}" __cid="cyaauQf" components="$model/UI2/system/components/justep/model/model,$model/UI2/system/components/justep/loadingBar/loadingBar,$model/UI2/system/components/justep/button/button,$model/UI2/system/components/justep/row/row,$model/UI2/system/components/justep/list/list,$model/UI2/system/components/justep/titleBar/titleBar,$model/UI2/system/components/justep/panel/child,$model/UI2/system/components/justep/data/data,$model/UI2/system/components/justep/window/window,$model/UI2/system/components/justep/panel/panel,">
+  <xhtml:style xmlns:xhtml="http://www.w3.org/1999/xhtml">null</xhtml:style>  
+  <div component="$model/UI2/system/components/justep/model/model" xid="model" style="display:none" data-bind="component:{name:'$model/UI2/system/components/justep/model/model'}" __cid="cyaauQf" class="cyaauQf"></div>  
+  <div component="$model/UI2/system/components/justep/panel/panel" class="x-panel x-full pcQBrI3a-iosstatusbar cyaauQf" xid="panel1" data-bind="component:{name:'$model/UI2/system/components/justep/panel/panel'}" __cid="cyaauQf"> 
+    <div class="x-panel-top cyaauQf" xid="top1" component="$model/UI2/system/components/justep/panel/child" data-bind="component:{name:'$model/UI2/system/components/justep/panel/child'}" __cid="cyaauQf"> 
+      <div component="$model/UI2/system/components/justep/titleBar/titleBar" class="x-titlebar cyaauQf" data-bind="component:{name:'$model/UI2/system/components/justep/titleBar/titleBar'}" data-config="{&quot;title&quot;:&quot;购物车&quot;}" __cid="cyaauQf"> 
+        <div class="x-titlebar-left cyaauQf" __cid="cyaauQf"> 
+          <a component="$model/UI2/system/components/justep/button/button" class="btn btn-link btn-only-icon cyaauQf" xid="backBtn" data-bind="component:{name:'$model/UI2/system/components/justep/button/button'}" data-events="onClick:{operation:'window.close'}" data-config="{&quot;icon&quot;:&quot;icon-chevron-left&quot;,&quot;label&quot;:&quot;&quot;}" __cid="cyaauQf"> 
+            <i class="icon-chevron-left cyaauQf" __cid="cyaauQf"/>  
+            <span __cid="cyaauQf" class="cyaauQf"/> 
+          </a> 
+        </div>  
+        <div class="x-titlebar-title cyaauQf" __cid="cyaauQf">购物车</div>  
+        <div class="x-titlebar-right  cyaauQf" __cid="cyaauQf">
+          <div class="empty cyaauQf" __cid="cyaauQf"/>
+        </div> 
+      </div> 
+    </div>  
+    <div class="x-panel-content cyaauQf" xid="content1" component="$model/UI2/system/components/justep/panel/child" data-bind="component:{name:'$model/UI2/system/components/justep/panel/child'}" __cid="cyaauQf">
+      <div component="$model/UI2/system/components/justep/list/list" class="x-list cyaauQf" xid="list1" data-bind="component:{name:'$model/UI2/system/components/justep/list/list'}" data-config="{&quot;data&quot;:&quot;cartShopData&quot;}" __cid="cyaauQf"> 
+        <ul class="x-list-template hide cyaauQf" xid="listTemplateUl1" bind-foreach="{data:$model.foreach_list1($element),afterRender:$model.foreach_afterRender_list1.bind($model,$element)}" __cid="cyaauQf"> 
+          <li xid="li1" __cid="cyaauQf" class="cyaauQf"> 
+            <div component="$model/UI2/system/components/justep/row/row" class="x-row cyaauQf" xid="row2" data-bind="component:{name:'$model/UI2/system/components/justep/row/row'}" __cid="cyaauQf"> 
+              <div class="x-col cyaauQf" xid="col4" __cid="cyaauQf"/>  
+              <div class="x-col cyaauQf" xid="col5" __cid="cyaauQf">
+                <span xid="span4" bind-text="val(&quot;fShopName&quot;)" __cid="cyaauQf" class="cyaauQf"/>
+              </div>  
+              <div class="x-col cyaauQf" xid="col6" __cid="cyaauQf"/>
+            </div>
+            <div component="$model/UI2/system/components/justep/list/list" class="x-list cyaauQf" xid="list3" data-bind="component:{name:'$model/UI2/system/components/justep/list/list'}" data-config="{&quot;data&quot;:&quot;cartGoodsData&quot;,&quot;filter&quot;:&quot; $row.val(\&quot;fShopID\&quot;) == val(\&quot;id\&quot;)&quot;}" __cid="cyaauQf"> 
+              <ul class="x-list-template hide cyaauQf" xid="listTemplateUl3" bind-foreach="{data:$model.foreach_list3($element),afterRender:$model.foreach_afterRender_list3.bind($model,$element)}" __cid="cyaauQf"> 
+                <li xid="li3" __cid="cyaauQf" class="cyaauQf">
+                  <span xid="span3" bind-text="val(&quot;fTitle&quot;)" __cid="cyaauQf" class="cyaauQf"/>
+                </li>
+              </ul> 
+            </div>
+          </li>
+        </ul> 
+      </div>
+    </div>  
+    <style __cid="cyaauQf" class="cyaauQf">.x-panel.pcQBrI3a-iosstatusbar &gt;.x-panel-top {height: 48px;}.x-panel.pcQBrI3a-iosstatusbar &gt;.x-panel-content { top: 48px;bottom: nullpx;}.x-panel.pcQBrI3a-iosstatusbar &gt;.x-panel-bottom {height: nullpx;}.iosstatusbar .x-panel.pcQBrI3a-iosstatusbar &gt;.x-panel-top,.iosstatusbar .x-panel .x-panel-content .x-has-iosstatusbar.x-panel.pcQBrI3a-iosstatusbar &gt;.x-panel-top {height: 68px;}.iosstatusbar .x-panel.pcQBrI3a-iosstatusbar &gt;.x-panel-content,.iosstatusbar .x-panel .x-panel-content .x-has-iosstatusbar.x-panel.pcQBrI3a-iosstatusbar &gt;.x-panel-content { top: 68px;}.iosstatusbar .x-panel .x-panel-content .x-panel.pcQBrI3a-iosstatusbar &gt;.x-panel-top {height: 48px;}.iosstatusbar .x-panel .x-panel-content .x-panel.pcQBrI3a-iosstatusbar &gt;.x-panel-content {top: 48px;}</style>
+  </div> 
+</div>

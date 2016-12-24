@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<div xmlns="http://www.w3.org/1999/xhtml" component="$model/UI2/system/components/justep/window/window" design="device:m;" xid="window" class="window cAjQVVr" data-bind="component:{name:'$model/UI2/system/components/justep/window/window'}" __cid="cAjQVVr" components="$model/UI2/system/components/justep/model/model,$model/UI2/system/components/justep/loadingBar/loadingBar,$model/UI2/system/components/justep/button/button,$model/UI2/system/components/justep/row/row,$model/UI2/system/components/justep/output/output,$model/UI2/system/components/justep/titleBar/titleBar,$model/UI2/system/components/justep/panel/child,$model/UI2/system/components/justep/data/data,$model/UI2/system/components/justep/window/window,$model/UI2/system/components/justep/panel/panel,">
+  <xhtml:style xmlns:xhtml="http://www.w3.org/1999/xhtml">null</xhtml:style>  
+  <div component="$model/UI2/system/components/justep/model/model" xid="model" style="display:none" data-bind="component:{name:'$model/UI2/system/components/justep/model/model'}" data-events="onLoad:modelLoad" __cid="cAjQVVr" class="cAjQVVr"></div>  
+  <div component="$model/UI2/system/components/justep/panel/panel" class="x-panel x-full pcIRNjui-iosstatusbar cAjQVVr" xid="panel1" data-bind="component:{name:'$model/UI2/system/components/justep/panel/panel'}" __cid="cAjQVVr"> 
+    <div class="x-panel-top cAjQVVr" xid="top1" component="$model/UI2/system/components/justep/panel/child" data-bind="component:{name:'$model/UI2/system/components/justep/panel/child'}" __cid="cAjQVVr"> 
+      <div component="$model/UI2/system/components/justep/titleBar/titleBar" class="x-titlebar cAjQVVr" data-bind="component:{name:'$model/UI2/system/components/justep/titleBar/titleBar'}" data-config="{&quot;title&quot;:&quot;测试得分&quot;}" __cid="cAjQVVr"> 
+        <div class="x-titlebar-left cAjQVVr" __cid="cAjQVVr"> 
+          <a component="$model/UI2/system/components/justep/button/button" class="btn btn-link btn-only-icon cAjQVVr" xid="backBtn" data-bind="component:{name:'$model/UI2/system/components/justep/button/button'}" data-events="onClick:{operation:'window.close'}" data-config="{&quot;icon&quot;:&quot;icon-chevron-left&quot;,&quot;label&quot;:&quot;&quot;}" __cid="cAjQVVr"> 
+            <i class="icon-chevron-left cAjQVVr" __cid="cAjQVVr"/>  
+            <span __cid="cAjQVVr" class="cAjQVVr"/> 
+          </a> 
+        </div>  
+        <div class="x-titlebar-title cAjQVVr" __cid="cAjQVVr">测试得分</div>  
+        <div class="x-titlebar-right  cAjQVVr" __cid="cAjQVVr">
+          <div class="empty cAjQVVr" __cid="cAjQVVr"/>
+        </div> 
+      </div> 
+    </div>  
+    <div class="x-panel-content cAjQVVr" xid="content1" component="$model/UI2/system/components/justep/panel/child" data-bind="component:{name:'$model/UI2/system/components/justep/panel/child'}" __cid="cAjQVVr"> 
+      <div component="$model/UI2/system/components/justep/row/row" class="x-row cAjQVVr" xid="row1" data-bind="component:{name:'$model/UI2/system/components/justep/row/row'}" __cid="cAjQVVr"> 
+        <div class="x-col x-col-fixed x-col-center text-success center-block cAjQVVr" xid="col2" style="width:auto;height:auto;vertical-align:middle;line-height:inherit;" __cid="cAjQVVr">
+          <div component="$model/UI2/system/components/justep/output/output" class="x-output cAjQVVr" xid="output1" style="top:50%;position:absolute;font-size:xx-large;" data-bind="component:{name:'$model/UI2/system/components/justep/output/output'}" __cid="cAjQVVr"/>
+        </div> 
+      </div>
+    </div>  
+    <style __cid="cAjQVVr" class="cAjQVVr">.x-panel.pcIRNjui-iosstatusbar &gt;.x-panel-top {height: 48px;}.x-panel.pcIRNjui-iosstatusbar &gt;.x-panel-content { top: 48px;bottom: nullpx;}.x-panel.pcIRNjui-iosstatusbar &gt;.x-panel-bottom {height: nullpx;}.iosstatusbar .x-panel.pcIRNjui-iosstatusbar &gt;.x-panel-top,.iosstatusbar .x-panel .x-panel-content .x-has-iosstatusbar.x-panel.pcIRNjui-iosstatusbar &gt;.x-panel-top {height: 68px;}.iosstatusbar .x-panel.pcIRNjui-iosstatusbar &gt;.x-panel-content,.iosstatusbar .x-panel .x-panel-content .x-has-iosstatusbar.x-panel.pcIRNjui-iosstatusbar &gt;.x-panel-content { top: 68px;}.iosstatusbar .x-panel .x-panel-content .x-panel.pcIRNjui-iosstatusbar &gt;.x-panel-top {height: 48px;}.iosstatusbar .x-panel .x-panel-content .x-panel.pcIRNjui-iosstatusbar &gt;.x-panel-content {top: 48px;}</style>
+  </div> 
+</div>
