@@ -103,7 +103,7 @@ define(function(require){
 				localStorage.setItem('userScore', JSON.stringify(data.userScore));
 				//localStorage存储数据需要用JSON.stringify(data)转换成json格式，取值时用JSON.parse();
 				//console.log(JSON.parse(localStorage.getItem('userScore')));
-				//window.location.href='./userScore.w';
+				window.location.href='./userScore.w';
 				console.log(data);
 			},
 			'error':function(e){
@@ -286,8 +286,10 @@ define(function(require){
 		this.timerDate.setMilliseconds(-1000);
 		this.comp("output1").set('value','倒计时 '+this.timerDate.getMinutes().valueOf()+":"+this.timerDate.getSeconds().valueOf());
 		if(this.timerDate.getMinutes()=='0' && this.timerDate.getSeconds()=='0'){
-			alert('时间到！！！');
+			
+			//alert('时间到！！！');
 			this.comp('timer1').pause();
+			this.completedButton(event);
 		};
 	};
 
