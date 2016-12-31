@@ -12,7 +12,7 @@ define(function(require){
 	};
 
 	Model.prototype.button1Click = function(event){
-		this.comp("output1").set({'value':localStorage.getItem('userScore')});
+		window.location.href='./checkWrong.w';
 	};
 
 	Model.prototype.modelLoad = function(event){

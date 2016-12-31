@@ -36,7 +36,7 @@
   <span component="$UI/system/components/justep/timer/timer" xid="timer1" onTimer="timer1Timer"></span><div component="$UI/system/components/justep/panel/panel" class="x-panel x-full"
     xid="panel1"> 
     <div class="x-panel-top" xid="top1"> 
-      <div component="$UI/system/components/justep/titleBar/titleBar" title="标题"
+      <div component="$UI/system/components/justep/titleBar/titleBar" title="考试中..."
         class="x-titlebar"> 
         <div class="x-titlebar-left"> 
           <a component="$UI/system/components/justep/button/button" label=""
@@ -46,7 +46,7 @@
             <span/> 
           </a>  
           </div>  
-        <div class="x-titlebar-title">标题</div>  
+        <div class="x-titlebar-title">考试中...</div>  
         <div class="x-titlebar-right reverse"><div component="$UI/system/components/justep/output/output" class="x-output" xid="output1" style="color:#FFFFFF;"></div></div> 
       </div> 
     </div>  

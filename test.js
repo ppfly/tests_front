@@ -103,6 +103,11 @@ define(function(require){
 				localStorage.setItem('userScore', JSON.stringify(data.userScore));
 				//localStorage存储数据需要用JSON.stringify(data)转换成json格式，取值时用JSON.parse();
 				//console.log(JSON.parse(localStorage.getItem('userScore')));
+				localStorage.setItem('wrongTest1', JSON.stringify(data.wrongtest1));
+				localStorage.setItem('wrongTest2', JSON.stringify(data.wrongtest2.data));
+				localStorage.setItem('wrongTest2_option', JSON.stringify(data.wrongtest2.option));
+				localStorage.setItem('wrongTest3', JSON.stringify(data.wrongtest3.data));
+				localStorage.setItem('wrongTest3_option', JSON.stringify(data.wrongtest3.option));
 				window.location.href='./userScore.w';
 				console.log(data);
 			},

@@ -15,5 +15,9 @@ define(function(require){
 
 	};
 
+	Model.prototype.button1Click = function(event){
+		justep.Shell.showPage(require.toUrl('./test.w'));
+	};
+
 	return Model;
 });

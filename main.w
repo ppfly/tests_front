@@ -5,34 +5,43 @@
   <column label="图片" name="fImg" type="String" xid="xid2"></column></div></div> 
 <div component="$UI/system/components/justep/panel/panel" class="x-panel x-full" xid="panel1">
    <div class="x-panel-content" xid="content1"><div component="$UI/system/components/justep/contents/contents" class="x-contents x-full" active="0" xid="contents1">
-   <div class="x-contents-content" xid="content2"><div component="$UI/system/components/justep/panel/panel" class="x-panel x-full" xid="panel2">
-   <div class="x-panel-top" xid="top1"><div component="$UI/system/components/justep/titleBar/titleBar" class="x-titlebar" xid="titleBar1" title="首页">
-   <div class="x-titlebar-left" xid="left1"></div>
-   <div class="x-titlebar-title" xid="title1">首页</div>
-   <div class="x-titlebar-right reverse" xid="right1"></div></div></div>
-   <div class="x-panel-content  x-scroll-view" xid="content6" _xid="C7556EFE068000011211660012B0144A" style="bottom: 0px;">
-  <div class="x-scroll" component="$UI/system/components/justep/scrollView/scrollView" xid="scrollView1">
-   <div class="x-content-center x-pull-down container" xid="div1">
-    <i class="x-pull-down-img glyphicon x-icon-pull-down" xid="i5"></i>
-    <span class="x-pull-down-label" xid="span5">下拉刷新...</span></div> 
-   <div class="x-scroll-content" xid="div2"><div component="$UI/system/components/justep/list/list" class="x-list" xid="list1" data="goodsData">
-   <ul class="x-list-template" xid="listTemplateUl1">
-    <li xid="li1"><img src="" alt="" xid="image1" bind-attr-src=' val("fImg")' style="width:100%;"></img></li></ul> </div></div>
-   <div class="x-content-center x-pull-up" xid="div3">
-    <span class="x-pull-up-label" xid="span6">加载更多...</span></div> </div></div>
-   </div></div>
-  <div class="x-contents-content" xid="content3"></div>
-  <div class="x-contents-content" xid="content4"><div component="$UI/system/components/justep/windowContainer/windowContainer" class="x-window-container" xid="windowContainer1" src="./search.w"></div></div>
-  <div class="x-contents-content" xid="content5"></div></div></div>
-   <div class="x-panel-bottom" xid="bottom1"><div component="$UI/system/components/justep/button/buttonGroup" class="btn-group x-card btn-group-justified" tabbed="true" xid="buttonGroup1"><a component="$UI/system/components/justep/button/button" class="btn btn-default btn-icon-top" label="首页" xid="indexButton" icon="icon-home" target="content2">
-   <i xid="i1" class="icon-home"></i>
-   <span xid="span1">首页</span></a>
-  <a component="$UI/system/components/justep/button/button" class="btn btn-default" label="button" xid="button4" target="content3">
-   <i xid="i2"></i>
-   <span xid="span2"></span></a>
-  <a component="$UI/system/components/justep/button/button" class="btn btn-default btn-icon-top" label="搜索" xid="searchButton" icon="icon-android-search" target="content4">
-   <i xid="i3" class="icon-android-search"></i>
-   <span xid="span3">搜索</span></a>
-  <a component="$UI/system/components/justep/button/button" class="btn btn-default" label="button" xid="button6" target="content5">
+   <div component="$UI/system/components/justep/panel/panel" class="x-panel x-full" xid="panel2">
+     <div class="x-panel-top" xid="top1">
+      <div component="$UI/system/components/justep/titleBar/titleBar" class="x-titlebar" xid="titleBar1" title="电梯安全员考试自测系统">
+       <div class="x-titlebar-left" xid="left1"></div>
+       <div class="x-titlebar-title" xid="title1">电梯安全员考试自测系统</div>
+       <div class="x-titlebar-right reverse" xid="right1"></div></div> </div> 
+     <div class="x-panel-content" xid="content6" style="bottom: 0px;" _xid="C75BED4DC8F00001DCCE130E1F80FC60">
+      <div component="$UI/system/components/justep/row/row" class="x-row" xid="row2">
+   <div class="x-col" xid="col4"><div component="$UI/system/components/justep/controlGroup/controlGroup" class="x-control-group" title="title" xid="controlGroup1">
+    <div class="panel panel-default" component="$UI/system/components/bootstrap/panel/panel" xid="panel4">
+   <div class="panel-heading" xid="heading1">
+    <h4 class="panel-title" xid="h41"><![CDATA[用户登陆]]></h4></div> 
+   <div class="panel-body" xid="body1"><div component="$UI/system/components/justep/controlGroup/controlGroup" class="x-control-group" title="title" xid="controlGroup1" collapsible="true">
+   
+   <div class="form-horizontal container-fluid" component="$UI/system/components/bootstrap/form/form" xid="form1">
+    
+    <div component="$UI/system/components/justep/labelEdit/labelEdit" class="x-label-edit x-label30" xid="labelEdit1">
+   <label class="pull-right x-label" xid="label1"><![CDATA[帐号：]]></label>
+   <input component="$UI/system/components/justep/input/input" class="form-control x-edit" xid="input1"></input></div>
+  <div component="$UI/system/components/justep/labelEdit/labelEdit" class="x-label-edit x-label30" xid="labelEdit2">
+   <label class="x-label" xid="label2"><![CDATA[密码：]]></label>
+   <input component="$UI/system/components/justep/input/input" class="form-control x-edit" xid="input2"></input></div>
+  <div component="$UI/system/components/justep/row/row" class="x-row" xid="row3">
+   <div class="x-col" xid="col11"></div>
+   <div class="x-col" xid="col12"><a component="$UI/system/components/justep/button/button" class="btn x-blue btn-block" label="登陆" xid="button3">
+   <i xid="i3"></i>
+   <span xid="span4">登陆</span></a>
+  </div>
+   <div class="x-col" xid="col13"><a component="$UI/system/components/justep/button/button" class="btn btn-link pull-right" label="快速注册" xid="button4">
    <i xid="i4"></i>
-   <span xid="span4"></span></a></div></div></div></div>
+   <span xid="span5">快速注册</span></a></div></div></div> </div></div>
+   </div></div></div>
+   </div><div component="$UI/system/components/justep/row/row" class="x-row" xid="row1">
+   <div class="x-col" xid="col2"><a component="$UI/system/components/justep/button/button" class="btn btn-primary center-block" label="马上开始体验！" xid="button1" onClick="button1Click">
+   <i xid="i1"></i>
+   <span xid="span1">马上开始体验！</span></a></div>
+   </div>
+  </div> </div>
+   </div></div>
+   </div></div>
