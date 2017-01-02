@@ -102,13 +102,14 @@ define(function(require){
 			'success':function(data){
 				localStorage.setItem('userScore', JSON.stringify(data.userScore));
 				//localStorage存储数据需要用JSON.stringify(data)转换成json格式，取值时用JSON.parse();
-				//console.log(JSON.parse(localStorage.getItem('userScore')));
+				console.log(JSON.parse(localStorage.getItem('userScore')));
 				localStorage.setItem('wrongTest1', JSON.stringify(data.wrongtest1));
 				localStorage.setItem('wrongTest2', JSON.stringify(data.wrongtest2.data));
 				localStorage.setItem('wrongTest2_option', JSON.stringify(data.wrongtest2.option));
 				localStorage.setItem('wrongTest3', JSON.stringify(data.wrongtest3.data));
 				localStorage.setItem('wrongTest3_option', JSON.stringify(data.wrongtest3.option));
-				window.location.href='./userScore.w';
+				//window.location.href='./userScore.w';
+				justep.Shell.showPage(require.toUrl('./userScore.w'));
 				console.log(data);
 			},
 			'error':function(e){
@@ -146,12 +147,16 @@ define(function(require){
 		var allTest2_option=this.comp("AllTest2_option");
 		var allTest3=this.comp('AllTest3');
 		var allTest3_option=this.comp("AllTest3_option");
+		//$("#loading").show(); 
 		$.ajax({
 			"type":"post",
 			"async":false,
 			//"global":false,
 			"data":{
 				
+			},
+			"beforeSend":function(XHR){  
+			     $("#loading").show();  	
 			},
 			"dataType":"json",
 			"url":"http://www.tests.mm/index/test/queryalltest",
@@ -173,9 +178,9 @@ define(function(require){
 				allTest3.loadData(JSON.parse(localStorage.getItem('AllTest3'),true));
 				allTest3_option.loadData(JSON.parse(localStorage.getItem('AllTest3_option'),true));
 				
-				
-				console.log(data.result3.data);
-				console.log(allTest3.toJson());
+				$("#loading").hide();
+				//console.log(data.result3.data);
+				//console.log(allTest3.toJson());
 				//allTest2_option.each(function(row){
 					
 				//	console.log(row.row.val('option_element'));
@@ -296,6 +301,13 @@ define(function(require){
 			this.comp('timer1').pause();
 			this.completedButton(event);
 		};
+	};
+
+	
+
+	Model.prototype.backBtnClick = function(event){
+		//justep.Shell.showPage(require.toUrl('./index.w'));
+		window.location.href='./index.w';
 	};
 
 	

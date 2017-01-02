@@ -40,7 +40,7 @@
         class="x-titlebar"> 
         <div class="x-titlebar-left"> 
           <a component="$UI/system/components/justep/button/button" label=""
-            class="btn btn-link btn-only-icon" icon="icon-chevron-left" onClick="{operation:'window.close'}"
+            class="btn btn-link btn-only-icon" icon="icon-chevron-left" onClick="backBtnClick"
             xid="backBtn"> 
             <i class="icon-chevron-left"/>  
             <span/> 
@@ -123,4 +123,7 @@
    <span xid="span8">交  卷</span></a></div>
    </div></div> 
   </div> 
+  <div id="loading" style="z-index:99999;position:fixed; top:0;left:0; width:100%;height:800px;background-image:url(img/loading.gif); background-position:center;background-repeat:no-repeat; text-align:center;">
+<div style="position:absolute; top:42%; left:30%; width:50%; text-align:center;">正在加载试题，请稍候……</div>  
+</div>  
 </div>

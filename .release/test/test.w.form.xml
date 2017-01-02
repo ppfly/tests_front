@@ -8,7 +8,7 @@
     <div class="x-panel-top cJjqy6f" xid="top1" component="$model/UI2/system/components/justep/panel/child" data-bind="component:{name:'$model/UI2/system/components/justep/panel/child'}" __cid="cJjqy6f"> 
       <div component="$model/UI2/system/components/justep/titleBar/titleBar" class="x-titlebar cJjqy6f" data-bind="component:{name:'$model/UI2/system/components/justep/titleBar/titleBar'}" data-config="{&quot;title&quot;:&quot;考试中...&quot;}" __cid="cJjqy6f"> 
         <div class="x-titlebar-left cJjqy6f" __cid="cJjqy6f"> 
-          <a component="$model/UI2/system/components/justep/button/button" class="btn btn-link btn-only-icon cJjqy6f" xid="backBtn" data-bind="component:{name:'$model/UI2/system/components/justep/button/button'}" data-events="onClick:{operation:'window.close'}" data-config="{&quot;icon&quot;:&quot;icon-chevron-left&quot;,&quot;label&quot;:&quot;&quot;}" __cid="cJjqy6f"> 
+          <a component="$model/UI2/system/components/justep/button/button" class="btn btn-link btn-only-icon cJjqy6f" xid="backBtn" data-bind="component:{name:'$model/UI2/system/components/justep/button/button'}" data-events="onClick:backBtnClick" data-config="{&quot;icon&quot;:&quot;icon-chevron-left&quot;,&quot;label&quot;:&quot;&quot;}" __cid="cJjqy6f"> 
             <i class="icon-chevron-left cJjqy6f" __cid="cJjqy6f"/>  
             <span __cid="cJjqy6f" class="cJjqy6f"/> 
           </a> 
@@ -144,5 +144,8 @@
       </div>
     </div>  
     <style __cid="cJjqy6f" class="cJjqy6f">.x-panel.pcQfyyEv-iosstatusbar &gt;.x-panel-top {height: 48px;}.x-panel.pcQfyyEv-iosstatusbar &gt;.x-panel-content { top: 48px;bottom: nullpx;}.x-panel.pcQfyyEv-iosstatusbar &gt;.x-panel-bottom {height: nullpx;}.iosstatusbar .x-panel.pcQfyyEv-iosstatusbar &gt;.x-panel-top,.iosstatusbar .x-panel .x-panel-content .x-has-iosstatusbar.x-panel.pcQfyyEv-iosstatusbar &gt;.x-panel-top {height: 68px;}.iosstatusbar .x-panel.pcQfyyEv-iosstatusbar &gt;.x-panel-content,.iosstatusbar .x-panel .x-panel-content .x-has-iosstatusbar.x-panel.pcQfyyEv-iosstatusbar &gt;.x-panel-content { top: 68px;}.iosstatusbar .x-panel .x-panel-content .x-panel.pcQfyyEv-iosstatusbar &gt;.x-panel-top {height: 48px;}.iosstatusbar .x-panel .x-panel-content .x-panel.pcQfyyEv-iosstatusbar &gt;.x-panel-content {top: 48px;}</style>
+  </div>  
+  <div id="loading" style="z-index:99999;position:fixed; top:0;left:0; width:100%;height:800px;background-image: url($model/UI2/wd/img/loading.gif); background-position:center;background-repeat:no-repeat; text-align:center;" __cid="cJjqy6f" class="cJjqy6f"> 
+    <div style="position:absolute; top:42%; left:30%; width:50%; text-align:center;" __cid="cJjqy6f" class="cJjqy6f">正在加载试题，请稍候……</div> 
   </div> 
 </div>

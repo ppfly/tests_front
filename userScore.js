@@ -16,7 +16,7 @@ define(function(require){
 	};
 
 	Model.prototype.modelLoad = function(event){
-		this.comp("output1").set({'value':localStorage.getItem('userScore')});
+		this.comp("output1").set({'value':localStorage.getItem('userScore')+'分'});
 	};
 
 	return Model;

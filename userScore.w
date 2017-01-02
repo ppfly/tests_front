@@ -23,10 +23,11 @@
       </div>  
     <div class="x-panel-content" xid="content1">
   <div component="$UI/system/components/justep/row/row" class="x-row" xid="row1">
-   <div class="x-col x-col-fixed x-col-center text-success center-block" xid="col2" style="width:auto;height:auto;vertical-align:middle;line-height:inherit;"><div component="$UI/system/components/justep/output/output" class="x-output" xid="output1" style="top:50%;position:absolute;font-size:xx-large;"></div>
-  <a component="$UI/system/components/justep/button/button" class="btn btn-default" label="回顾答错的题目" xid="button1" onClick="button1Click">
+   <div class="x-col x-col-fixed x-col-center text-success center-block" xid="col2" style="width:auto;height:auto;vertical-align:middle;line-height:inherit;">
+  <a component="$UI/system/components/justep/button/button" class="btn btn-default" label="回顾答错的题目" xid="button1" onClick="button1Click" style="position:fixed;top:50%;width:40%;left:32%;">
    <i xid="i1"></i>
-   <span xid="span1">回顾答错的题目</span></a></div>
+   <span xid="span1">回顾答错的题目</span></a>
+  <h1 xid="h11" style="position:fixed;top:35%;width:100%;left:43%;"><![CDATA[]]><div component="$UI/system/components/justep/output/output" class="x-output" xid="output1" style=";font-size:xx-large;font-weight:bolder;"></div></h1></div>
    </div></div>
   </div> 
 </div>

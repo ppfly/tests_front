@@ -7,6 +7,11 @@ define(function(require){
 	};
 
 	Model.prototype.modelLoad = function(event){
+		var allTest1=this.comp('AllTest1');
+		var allTest2=this.comp('AllTest2');
+		var allTest2_option=this.comp("AllTest2_option");
+		var allTest3=this.comp('AllTest3');
+		var allTest3_option=this.comp("AllTest3_option");
 		allTest1.loadData(JSON.parse(localStorage.getItem('wrongTest1'),true));
 		allTest2.loadData(JSON.parse(localStorage.getItem('wrongTest2'),true));
 		allTest2_option.loadData(JSON.parse(localStorage.getItem('wrongTest2_option'),true));
